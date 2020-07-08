@@ -199,16 +199,16 @@
 - github地址：https://github.com/zkSNACKs/WalletWasabi
 #### &nbsp; 创建一个钱包
 - 安装成功后，插入BixinKEY，点击左侧Hardware wallet，再点击下方的search hardware wallet，会自动搜索到BixinKEY，并创建钱包
-  ![load-wallet](./pictures/wasabi-load_wallet.png)</br>
+  <br/>![load-wallet](./pictures/wasabi-load_wallet.png)</br>
 #### &nbsp;发币
 - 进入菜单tools/settings，修改网络为testnet，重启软件，点击receive菜单项，获取地址并向该地址发送测试币(此处地址生成要根据已有的钱包生成，我输入的Observer为Electrum)
-  ![receive-addr](./pictures/wasabi-receive-address.png)</br>
+  <br/>![receive-addr](./pictures/wasabi-receive-address.png)</br>
 - 点击send菜单项，输入金额和地址，点击Send Transaction
-  ![send](./pictures/wasabi-send.png)</br>
+  <br>![send](./pictures/wasabi-send.png)</br>
 - 此时会提醒你等待硬件确认，在BixinKEY上点击确认以后，会自动发送交易
-  ![sign](./pictures/wasabi-send-transaction.png)</br>
+  <br>![sign](./pictures/wasabi-send-transaction.png)</br>
 - 回到交易历史页面会看到交易详情
-  ![unconfirm](./pictures/wasabi-history.png)</br>
+  <br>![unconfirm](./pictures/wasabi-history.png)</br>
 #### &nbsp;结果
 - 可以使用BixinKEY
 
@@ -292,24 +292,24 @@
   - mkdir BTCPayServer;tar -zxvf BTCPayServerVault-Linux-1.0.3.tar.gz
   - ./BTCPayServer.Vault（启动BTCPayServer.vault程序并插入硬件）
   - 去浏览器BTCPayServer应用，点击BTCPay Server’s Stores > Settings > General Settings > Derivation Scheme > Import from the vault
-    ![load-vault](./pictures/btcpayserver-import-from-vault-2.png)</br>
+    <br/>![load-vault](./pictures/btcpayserver-import-from-vault-2.png)</br>
   - 此时跳到提醒页面，提醒用户去BTCPay Vault app去点击accept按钮授权web应用访问硬件(只有第一次需要授权，如果硬件有密码，会让输入密码)
-    ![import](./pictures/btcpayserver-import-from-vault-1.png)</br>
-    ![accept](./pictures/btcpayserver-vault-accept.png)</br>
+    <br/>![import](./pictures/btcpayserver-import-from-vault-1.png)</br>
+    <br/>![accept](./pictures/btcpayserver-vault-accept.png)</br>
   - 选择地址类型，点击confirm确认
-    ![confirm](./pictures/btcpayserver-vault-confirm.png)</br>
+    <br/>![confirm](./pictures/btcpayserver-vault-confirm.png)</br>
   - 此时显示扩展公钥，点击continue，显示生成的派生地址
-    ![address](./pictures/btcpayserver-get-pubkey.png)</br>
+    <br/>![address](./pictures/btcpayserver-get-pubkey.png)</br>
 #### &nbsp; 创建一个钱包
   - 到这一步，你在浏览器BTCPayserver中点击Wallets就可以看到一个跟新创建的Store同名的钱包
 #### &nbsp; 发币
   - 点击钱包后边的Manage按钮，点击左侧Send按钮，并输入目的地址和转账金额，点击"Sign with the vault"
-    ![send](./pictures/btcpayserver-send.png)</br>
+    <br/>![send](./pictures/btcpayserver-send.png)</br>
   - 跳到签名提醒页面，此时要到硬件上进行签名
-    ![sign](./pictures/btcpayserver-hw-sign.png)</br>
+    <br/>![sign](./pictures/btcpayserver-hw-sign.png)</br>
   - 签名以后，跳到广播页面，点击broadcast按钮进行广播
-    ![broadcast](./pictures/btcpayserver-broadcast.png)</br>
+    <br/>![broadcast](./pictures/btcpayserver-broadcast.png)</br>
 #### &nbsp; 结果
   - 点击交易页面查看到交易详情
-    ![broadcast](./pictures/btcpayserver-history-list.png)</br>
+    <br/>![broadcast](./pictures/btcpayserver-history-list.png)</br>
   - 可以使用BixinKEY
