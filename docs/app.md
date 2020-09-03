@@ -56,6 +56,73 @@
 #### &nbsp; 结果
   - 可以使用BixinKEY
 
+### <br/>**MetaMask**</br>
+#### &nbsp; 环境搭建
+  ##### 参考使用地址：
+    https://wiki.trezor.io/Apps:MetaMask
+    https://metamask.zendesk.com/hc/en-us/articles/360020394612-How-to-connect-a-Trezor-or-Ledger-Hardware-Wallet
+  #### &nbsp; Linux/Windows/MacOS
+  必备条件：
+   - 翻墙
+   - 浏览器必须为google chrome或者firefox
+   - 安装bridge插件
+      - (https://wallet.trezor.io/#/bridge)(打开网址,直接点击下载最新包就行,因为系统会自动匹配对应安装包)
+        <br/>![send](./pictures/Trezor-bridge.png)</br>
+      - 下载完成之后，点击下载的文件直接进行安装
+        - Window 安装：
+          <br/>![send](./pictures/Trezor-windows.png)</br>
+        - Linux 安装：
+          <br/>![send](./pictures/Trezor-linux.png)</br>
+          ————————————————————————————————————————————————————
+          <br/>![send](./pictures/Trezor-linux2.png)</br>
+        - MacOS 安装：
+          <br/>![send](./pictures/Trezor-mac1.png)</br>
+          ————————————————————————————————————————————————————
+          <br/>![send](./pictures/Trezor-mac2.png)</br>
+  #### &nbsp; 连接BixinKey
+  - 在chrome中输入以下网址添加metamask扩展模块(https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
+    - 点击“添加至chrome”按扭，跳出新窗口，点击“添加扩展”按钮，显示“正在检查”(这里稍微需要点儿时间)，检查完成会进入MetaMask首页，点击“开始使用”
+    <br/>![send](./pictures/metamask-1.png)</br>
+    ——————————————————————————————————————————————————————————
+    <br/>![send](./pictures/metamask-2.png)</br>
+    ——————————————————————————————————————————————————————————
+    <br/>![send](./pictures/metamask-4.png)</br>
+    ——————————————————————————————————————————————————————————
+    <br/>![send](./pictures/metamask-5.png)</br>
+    - 创建钱包(因为我已经有SEED，所以选择导入钱包),输入seed点击“导入”按钮后进入首页
+    <br/>![send](./pictures/metamask-6.png)</br>
+    ——————————————————————————————————————————————————————————
+    <br/>![send](./pictures/metamask-7.png)</br>
+    ——————————————————————————————————————————————————————————
+    <br/>![send](./pictures/metamask-8.png)</br>
+    - 点击右上角的头像，选择"链接硬件钱包"
+    <br/>![send](./pictures/metamask-9.png)</br>
+    - 插入硬件，选择“trezor”，并点击连接，跳出新页面点击"allow once for this session",然后点击“Export”，输入密码，可以看到trezor中对应的账号信息，选择对应账号信息进行解锁(此处如果不能成功选择，建议重启浏览器)，可以看到对应账户信息
+    <br/>![send](./pictures/metamask-10.png)</br>
+    ——————————————————————————————————————————————————————————
+    <br/>![send](./pictures/metamask-11.png)</br>
+    ——————————————————————————————————————————————————————————
+    <br/>![send](./pictures/metamask-12.png)</br>
+    ——————————————————————————————————————————————————————————
+    <br/>![send](./pictures/metamask-13.png)</br>
+    ——————————————————————————————————————————————————————————
+    <br/>![send](./pictures/metamask-14.png)</br>
+  #### &nbsp; 发币
+  - 点击发送按钮，输入接收地址，输入金额，并选择费率，点击下一步，确认交易信息，没问题就点击确认按钮，点击proceed按钮，跳出新页面点击"allow once for this session",去硬件上进行确认，硬件上确认完成后页面会自动跳转到交易列表页面(此处会有大概30秒的超时，超时没确认会显示发送失败)
+    <br/>![send](./pictures/metamask-14.png)</br>
+    ——————————————————————————————————————————————————————————
+    <br/>![send](./pictures/metamask-15.png)</br>
+    ——————————————————————————————————————————————————————————
+    <br/>![send](./pictures/metamask-16.png)</br>
+    ——————————————————————————————————————————————————————————
+    <br/>![send](./pictures/metamask-17.png)</br>
+    ——————————————————————————————————————————————————————————
+    <br/>![send](./pictures/metamask-19.png)</br>
+    ——————————————————————————————————————————————————————————
+    <br/>![send](./pictures/metamask-18.png)</br>
+  #### &nbsp; 结果
+  - 可以使用BixinKEY
+
 ### <br/>**Mycelium**</br>
 ### &emsp; <font face="黑体" size=3>参考使用地址：https://wiki.trezor.io/Apps:Mycelium</font>  
 
@@ -73,11 +140,7 @@
 
 
 ### <br/>**Etherwall**</br>
-### &emsp; <font face="黑体" size=3>参考使用地址：https://wiki.trezor.io/Apps:Etherwall</font>    
-
-
-### <br/>**MetaMask**</br>
-### &emsp; <font face="黑体" size=3>参考使用地址：https://wiki.trezor.io/Apps:MetaMask</font>    
+### &emsp; <font face="黑体" size=3>参考使用地址：https://wiki.trezor.io/Apps:Etherwall</font>      
 
 
 ### <br/>**Electrum-DASH**</br>
@@ -189,28 +252,6 @@
     ```  
     <br/>![result](./pictures/hwi-result-6.png)</br>
   - 可以使用BixinKEY
-
-
-
-## <br/>**Wasabi**</br>
-#### &nbsp;环境搭建
-#### &nbsp;LINUX(Ubuntu 18.04)
-- APP下载地址：https://wasabiwallet.io/#download
-- github地址：https://github.com/zkSNACKs/WalletWasabi
-#### &nbsp; 创建一个钱包
-- 安装成功后，插入BixinKEY，点击左侧Hardware wallet，再点击下方的search hardware wallet，会自动搜索到BixinKEY，并创建钱包
-  <br/>![load-wallet](./pictures/wasabi-load_wallet.png)</br>
-#### &nbsp;发币
-- 进入菜单tools/settings，修改网络为testnet，重启软件，点击receive菜单项，获取地址并向该地址发送测试币(此处地址生成要根据已有的钱包生成，我输入的Observer为Electrum)
-  <br/>![receive-addr](./pictures/wasabi-receive-address.png)</br>
-- 点击send菜单项，输入金额和地址，点击Send Transaction
-  <br>![send](./pictures/wasabi-send.png)</br>
-- 此时会提醒你等待硬件确认，在BixinKEY上点击确认以后，会自动发送交易
-  <br>![sign](./pictures/wasabi-send-transaction.png)</br>
-- 回到交易历史页面会看到交易详情
-  <br>![unconfirm](./pictures/wasabi-history.png)</br>
-#### &nbsp;结果
-- 可以使用BixinKEY
 
 
 ### <br/>**BTCPayServer**</br>  
